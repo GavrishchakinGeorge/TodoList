@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+	<title src="title.ico">Todo List</title>
+</head>
+
+<body class="intro">
+<div>
+	<header class="header">
+		<div class="container">
+			<div class="header__inner">
+				<div class="header__logo" img src="/assets/images/delete.png">ToDoList</div>
+
+			</div>
+		</div>
+
+	<form class="add_wrapper" id="todo-form">
+		<input class="input-text" type="text" id="todo-input" placeholder="Enter the task" 
+		pattern="^[a-zA-Z-А-Яа-яЁё\s]+$" title="Use letters of the Latin or Russian alphabet.">
+		<div class="sends">
+			<button class="but_t" type="submit">Add</button>
+			<button class="clear-form" type="button" id="ClearFormButton">Clear</button>
+		</div>
+	</form>
+
+	<div class="header__logo">Tasks for the day</div> 
+	
+
+	<div >
+			<div id="todo-list" class="add_wrapper_list">
+				
+
+			</div>
+	</div>
+
+		<script src="./main _input.js"></script>
+	</body>
+</html>
+
+<!-- 
+	Внешний тег <ul> или <ol> устанавливает тип списка — маркированный или нумерованный. 
+	Тег li определяет отдельный элемент списка	
+	class="output-text"
+-->
